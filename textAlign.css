@@ -1,0 +1,7 @@
+@charset "utf-8";
+.center-wrapper{
+  text-align: center;
+}
+.center-wrapper * {
+  margin: 0 auto;
+}
