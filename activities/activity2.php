@@ -37,6 +37,7 @@
            <th>Phone Number</th>
            <th>Order Number</th>
            <th>Order Total</th>
+					 
       </tr>
        <?php
            //fill table with columns from db table
@@ -47,6 +48,7 @@
                   echo '<td>' . $row['phone_number']   . '</td>';
                   echo '<td>' . $row['order_number']   . '</td>';
                   echo '<td>' . $row['order_total']   . '</td>';
+									
                   echo '</tr>';
             }      	
        ?>                                        	
